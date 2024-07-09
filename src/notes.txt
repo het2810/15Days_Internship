@@ -1,0 +1,5 @@
+To be Done : Add Github Logo and link 
+             Give resume link to download 
+             Make sure all the changes are done correctly 
+             Skills should be dynamic
+             Add Leetcode Streak and problems link 
