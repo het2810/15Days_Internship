@@ -54,9 +54,9 @@ export const NavBar = () => {
                 <a href="https://github.com/het2810/15Days_Internship"><img src={navIcon2} alt="" /></a>
                 {/* <a href="https://www.instagram.com/hetpatel_2810/"><img src={navIcon3} alt="" /></a> */}
               </div>
-              <HashLink to='#connect'>
+              <a href="/amazon_final5.csv" download>
                 <button className="vvd"><span>Download CSV</span></button>
-              </HashLink>
+              </a>
             </span>
           </Navbar.Collapse>
         </Container>
