@@ -142,7 +142,7 @@ export const Python = () => {
   ];
 
   return (
-    <section className="project" id="projects">
+    <section className="pythonproj" id="projects">
       <Container>
         <Row>
           <Col size={12}>
