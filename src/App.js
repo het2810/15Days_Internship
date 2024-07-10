@@ -6,7 +6,10 @@ import { Banner } from "./components/Banner";
 import { Skills } from "./components/Skills";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
+
 import { Python } from './components/Python';
+import { SQL } from './components/Sql';
+
 
 function App() {
   return (
@@ -15,6 +18,7 @@ function App() {
       <Banner />
       <Skills />
       <Python />
+      <SQL/>
       <Contact />
       <Footer />
     </div>
