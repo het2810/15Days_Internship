@@ -7,7 +7,10 @@ import { Skills } from "./components/Skills";
 // import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
+
+import { Python } from './components/Python';
 import { SQL } from './components/Sql';
+
 
 function App() {
   return (
@@ -15,6 +18,7 @@ function App() {
       <NavBar />
       <Banner />
       <Skills />
+      <Python />
       <SQL/>
       {/* <Projects /> */}
       {/* <Contact /> */}

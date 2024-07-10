@@ -351,7 +351,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	font-weight: 700;
   text-align: center;
 }
-.project p {
+.pythonproj p {
   color: #B8B8B8;
   font-size: 18px;
   letter-spacing: 0.8px;
@@ -360,17 +360,41 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   width: 56%;
 }
-.project .nav.nav-pills {
+
+.pythonproj .nav.nav-pills {
   width: 75%;
   margin: 0 auto;
+  
   border-radius: 50px;
   background-color: rgb(255 255 255 / 10%);
   overflow: hidden;
 }
+
+.project .nav.nav-pills {
+
+  width: 75%;
+  margin: 0 auto;
+  
+  border-radius: 50px;
+  background-color: rgb(255 255 255 / 10%);
+  overflow: hidden;
+  
+}
+
+
+
+.pythonproj .nav.nav-pills .nav-item {
+  width: 50%;
+}
+
 .project .nav.nav-pills .nav-item {
   width: 25%;
+
 }
-.project .nav.nav-pills .nav-link {
+
+
+
+.pythonproj .nav.nav-pills .nav-link {
   background-color: transparent;
   border-radius: 0;
   padding: 17px 0;
@@ -384,7 +408,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   z-index: 0;
 }
-.project .nav.nav-pills .nav-link::before {
+
+.harshil{
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  
+  
+ 
+}
+
+.pythonproj .nav.nav-pills .nav-link::before {
     content: "";
     position: absolute;
     width: 0;
@@ -395,10 +429,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     z-index: -1;
     transition: 0.3s ease-in-out;
 }
-.project .nav.nav-pills .nav-link.active::before {
+.pythonproj .nav.nav-pills .nav-link.active::before {
     width: 100% !important;
 }
-.project .nav.nav-pills .nav-link.active {
+.pythonproj .nav.nav-pills .nav-link.active {
     border: 1px solid rgba(255, 255, 255, 1);
 }
 .nav-link#projects-tabs-tab-first {
@@ -416,6 +450,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0 55px 55px 0;
 }
+
+.proj-imgbx-python {
+  height: fit-content;
+  position: relative;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+
 .proj-imgbx {
   height: fit-content;
   position: relative;
@@ -423,7 +466,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   overflow: hidden;
   margin-bottom: 24px;
 }
-.proj-imgbx::before {
+.proj-imgbx-python::before {
   content: "";
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
   opacity: 0.85;
@@ -432,10 +475,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 0;
   transition: 0.4s ease-in-out;
 }
-.proj-imgbx:hover::before {
+.proj-imgbx-python:hover::before {
   height: 100%;
 }
-.proj-txtx {
+.proj-txtx-python {
   position: absolute;
   text-align: center;
   top: 65%;
@@ -445,17 +488,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   opacity: 0;
   width: 100%;
 }
-.proj-imgbx:hover .proj-txtx {
+.proj-imgbx-python:hover .proj-txtx-python {
   top: 50%;
   opacity: 1;
 }
-.proj-txtx h4 {
+.proj-txtx-python h4 {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1.1em;
 }
-.proj-txtx span {
+.proj-txtx-python span {
   font-style: italic;
   font-weight: 400;
   font-size: 15px;
