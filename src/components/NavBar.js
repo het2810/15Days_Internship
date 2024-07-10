@@ -44,9 +44,9 @@ export const NavBar = () => {
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link href="#sql" className={activeLink === 'sql' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>SQL</Nav.Link>
-              <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Python + Hypothesis Testing</Nav.Link>
-              <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Power Bi</Nav.Link>
+              <Nav.Link href="#sql" className={activeLink === 'sql' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('sql')}>SQL</Nav.Link>
+              <Nav.Link href="#ph" className={activeLink === 'ph' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('ph')}>Python + Hypothesis Testing</Nav.Link>
+              <Nav.Link href="#powerBi" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('powerBi')}>Power Bi</Nav.Link>
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
@@ -55,7 +55,10 @@ export const NavBar = () => {
                 {/* <a href="https://www.instagram.com/hetpatel_2810/"><img src={navIcon3} alt="" /></a> */}
               </div>
               <a href="/amazon_final5.csv" download>
-                <button className="vvd"><span>Download CSV</span></button>
+                <button className="vvd"><span>Dataset</span></button>
+              </a>
+              <a href="/Article.pdf" download>
+                <button className="vvd"><span>Article</span></button>
               </a>
             </span>
           </Navbar.Collapse>

@@ -55,9 +55,9 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Analysis Summary</span>
+                <span className="tagline">Analysis Overview</span>
                 <h1> <span className="txt-rotate" dataPeriod="1000" ><span className="wrap">{text}</span></span></h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                  <p>Our project aims to analyze customer behavior on Amazon to uncover hidden trends and understand customer preferences and products. Our analysis focuses on understanding the relationship between product ratings, discounts, and prices across multiple categories and subcategories.The campaign aims to identify the highest category, determine the impact of the discount on consumer opinion, and investigate the relationship between product evaluation and price.</p>
                   
               </div>}
             </TrackVisibility>

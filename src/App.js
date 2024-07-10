@@ -10,6 +10,7 @@ import { Footer } from "./components/Footer";
 
 import { Python } from './components/Python';
 import { SQL } from './components/Sql';
+import { PowerBI } from './components/PowerBI';
 
 
 function App() {
@@ -18,8 +19,9 @@ function App() {
       <NavBar />
       <Banner />
       <Skills />
-      <Python />
       <SQL/>
+      <Python />
+      <PowerBI/>
       {/* <Projects /> */}
       {/* <Contact /> */}
       <Footer />
