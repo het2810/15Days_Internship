@@ -58,7 +58,7 @@ export const SQL = () => {
   ];
 
   return (
-    <section className="project" id="projects">
+    <section className="project" id="sql">
       <Container>
         <Row>
           <Col size={12}>
