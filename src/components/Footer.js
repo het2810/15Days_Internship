@@ -21,7 +21,11 @@ export const Footer = () => {
               Parshwa <a href="https://github.com/parshwa9324"><img src={navIcon2} alt="Icon" /></a><br></br>
               Pratik Bajaj <a href="https://github.com/Pratikbajaj"><img src={navIcon2} alt="Icon" /></a><br></br>
               Viral Modi <a href="https://github.com/ViruModi228"><img src={navIcon2} alt="Icon" /></a>
-              {/* <a href="#"><img src={navIcon3} alt="Icon" /></a> */}
+             
+            </div>
+            <div style={{marginTop : "1.5rem"}}>
+              <h4>Guided By</h4>
+              <b>Alakh Pandya</b>
             </div>
             
           </Col>
